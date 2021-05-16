@@ -1,0 +1,36 @@
+.vl-right {
+    border-right: 1px solid #dee2e6;
+}
+
+#footer {
+    position: sticky;
+    top: 100%;
+    color: #2b63f5;
+}
+
+#session {
+    color: #007bf5;
+}
+
+.button,
+#footerMid,
+#footerRight {
+    display: block;
+}
+
+#invisible {
+    display: none;
+}
+
+@media (max-width: 650px) {
+    #content,
+    #logo,
+    .button,
+    #footerMid,
+    #footerRight {
+        display: none;
+    }
+    #invisible {
+        display: block;
+    }
+}
