@@ -1,11 +1,15 @@
-<?php $url = '/phpProject/images/wallpaper.jpg';
+<?php $url = '/phpProject/assets/images/wallpaper.jpg';
 $title = 'Home';
 include '../init_src.php';
-$user_id = $_SESSION['user_id'];
-
-$sql = "SELECT * FROM accounts where id like '$user_id'";
-$result = mysqli_query($conn, $sql);
-$user = mysqli_fetch_assoc($result);
+if(isset($_SESSION['user_id'])){
+	$user_id = $_SESSION['user_id'];
+	$sql = "SELECT * FROM accounts where id like '$user_id'";
+	$result = mysqli_query($conn, $sql);
+	$user = mysqli_fetch_assoc($result);
+}
+else{
+	header('Location: ./music.php');
+}
 ?>
 
 <form onsubmit="edit(event)">

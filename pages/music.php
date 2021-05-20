@@ -2,7 +2,7 @@
 
 <div class="d-inline-flex mt-3 w-100"><!-- main content -->
 	<div class="col-3 vl-right"><!-- left aside -->
-		<audio id="audio" autoplay=false tabindex="0" controls="" >
+		<audio id="audio" tabindex="0" controls="" >
 			<source src="/phpProject/assets/music/FisherOfMen.mp3">
 		</audio> 
 	</div>
@@ -41,8 +41,6 @@
 			var playlist = $('#playlist');
 			var tracks = playlist.find('li a');
 			var len = tracks.length - 1;
-			audio[0].volume = .10;
-			audio[0].play();
 			playlist.on('click','a', function(e){
 				e.preventDefault();
 				link = $(this);
