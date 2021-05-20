@@ -2,10 +2,7 @@
 	<div class="col">
 		<h3>Contacts:</h3>
 		<ul type="none">
-			<li>Zhan zhanzhaksilik@gmail.com</li>
-			<li>Margulan 170107162@stu.sdu.edu.kz</li>
-			<li>Miras 170107077@stu.sdu.edu.kz</li>
-			<li>Beket 170107077@stu.sdu.edu.kz</li>
+			<li>Daniyar Issabek 170107150@stu.sdu.edu.kz</li>
 		</ul>
 	</div>
 	<div class="col text-center" id="footerMid">
@@ -13,10 +10,10 @@
 	</div>
 	<div class="col">
 		<ul type="none" id="footerRight">
-			<li>METHOD</li>
-			<li>Almaty</li>
+			<li>SDU</li>
+			<li>Kaskelen</li>
 			<li>Kazakhstan</li>
-			<li>2019</li>
+			<li>2021</li>
 		</ul>
 	</div>
 </div>

@@ -8,7 +8,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 <!-- /bootstrap -->
 
-<link rel="stylesheet" href='/phpproject/assets/styles/style.css'>
+<link rel="stylesheet" href='/phpProject/assets/styles/style.css'>
 <style type="text/css">
 	body {
 		background-image: url(<?php echo $url ?>);
