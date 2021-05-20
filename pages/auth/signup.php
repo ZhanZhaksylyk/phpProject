@@ -1,7 +1,7 @@
-<?php $url='/phpProject/assets/images/wallpaper.jpg';$title='Sign UP'; include '../init_src.php';?>
+<?php $url='/phpProject/assets/images/wallpaper.jpg';$title='Sign UP'; include '../../init_src.php';?>
 <hr>
 <hr>
-<form method="post" action="../functions/signup.php">
+<form method="post" action="../../functions/signup.php">
 	<input type="text" name="name" placeholder="Name">
 	<input type="text" name="email" placeholder="email">
 	<br>
@@ -26,4 +26,4 @@
 	<hr>
 	<input type="submit" name="button">
 </form>
-<?php include '../common/footer.php';?>
+<?php include '../../common/footer.php';?>
